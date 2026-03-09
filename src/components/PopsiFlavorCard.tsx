@@ -7,20 +7,20 @@ interface PopsiFlavor {
   price: string;
 }
 
-const PopsiFlavorCard = ({ flavor }: {flavor: PopsiFlavor;}) => {
+const PopsiFlavorCard = ({ flavor }: { flavor: PopsiFlavor }) => {
   return (
     <div className="card-tilt flex-shrink-0 w-[270px] sm:w-[280px] rounded-[2rem] overflow-hidden shadow-lg bg-card">
       <div
         className="h-56 flex items-center justify-center relative"
-        style={{ backgroundColor: flavor.bgColor }}>
-        
+        style={{ backgroundColor: flavor.bgColor }}
+      >
         {/* Bottle placeholder */}
         <div
-          className="w-20 h-32 rounded-t-[1.5rem] rounded-b-xl shadow-xl items-center justify-center flex flex-col"
-          style={{ backgroundColor: flavor.bottleColor }}>
-          
+          className="w-20 h-32 rounded-t-[1.5rem] rounded-b-xl shadow-xl flex items-center justify-center"
+          style={{ backgroundColor: flavor.bottleColor }}
+        >
           <span className="font-body text-[10px] font-bold text-primary-foreground/80 text-center px-1 leading-tight">
-            POPSI<br />{flavor.name}
+            POPSI<br/>{flavor.name}
           </span>
         </div>
       </div>
@@ -33,13 +33,13 @@ const PopsiFlavorCard = ({ flavor }: {flavor: PopsiFlavor;}) => {
         </span>
         <a
           href="#waitlist"
-          className="mt-4 block text-center px-4 py-2.5 rounded-full bg-popsi-brown text-primary-foreground font-body text-sm font-semibold hover:opacity-90 transition-opacity">
-          
+          className="mt-4 block text-center px-4 py-2.5 rounded-full bg-popsi-brown text-primary-foreground font-body text-sm font-semibold hover:opacity-90 transition-opacity"
+        >
           Join Waitlist →
         </a>
       </div>
-    </div>);
-
+    </div>
+  );
 };
 
 export default PopsiFlavorCard;

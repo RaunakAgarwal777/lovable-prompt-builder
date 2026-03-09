@@ -15,18 +15,18 @@ const ExpansionSection = () => {
         <p className="font-body text-base sm:text-lg text-primary-foreground/70 mb-8 max-w-2xl mx-auto reveal">
           TURBO and POPSI Naturals are expanding across Southeast Asia — Philippines, Indonesia, Thailand, Vietnam. Coconut water and sugarcane punch are already familiar flavors there. Now they'll carry an Indian soul.
         </p>
-        <div className="flex justify-center gap-4 text-4xl mb-8 reveal text-secondary-foreground">
+        <div className="flex justify-center gap-4 text-4xl mb-8 reveal">
           <span>🇮🇳</span><span>🇵🇭</span><span>🇮🇩</span><span>🇹🇭</span><span>🇻🇳</span>
         </div>
         <a
           href="#"
-          className="inline-flex px-7 py-3 rounded-full border-2 border-primary-foreground/50 text-primary-foreground font-body font-semibold text-sm hover:bg-primary-foreground/10 transition-colors reveal">
-          
+          className="inline-flex px-7 py-3 rounded-full border-2 border-primary-foreground/50 text-primary-foreground font-body font-semibold text-sm hover:bg-primary-foreground/10 transition-colors reveal"
+        >
           Partner With Us →
         </a>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default ExpansionSection;
