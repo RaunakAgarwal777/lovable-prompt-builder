@@ -19,8 +19,8 @@ const PopsiHeroSection = () => {
             <p className="font-body text-lg text-muted-foreground mb-3">
               Real sugarcane. Real coconut. Real banana. Nothing fake.
             </p>
-            <p className="font-body text-base text-muted-foreground/80 mb-8">
-              POPSI Naturals is India's everyday natural beverage — ₹15–20, in cute little bottles that feel like a hug.
+            <p className="font-body text-base text-muted-foreground/80 mb-8">POPSI Naturals is India's everyday natural beverage — ₹15–20, in cutie little bottles that feel like a hug.
+
             </p>
             <a
               href="#popsi-flavors"

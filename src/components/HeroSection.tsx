@@ -18,13 +18,13 @@ const HeroSection = () => {
               Culturally Rooted<br />
               Energy Drink.
             </h1>
-            <p className="text-lg sm:text-xl font-body text-foreground/70 mb-8">
-              Zero Sugar · Zero Calorie · Sparkling Prebiotic Tonic · ₹39
+            <p className="text-lg sm:text-xl font-body text-foreground/70 mb-8">Zero Sugar · Zero Calorie · Sparkling Prebiotic Tonic · ₹40
+
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <a
                 href="#turbo-squad"
-                className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-sidebar-primary text-[sidebar-primary-foreground] bg-slate-950">
+                className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-[sidebar-primary-foreground] bg-accent text-primary-foreground">
                 
                 Shop TURBO →
               </a>
@@ -40,7 +40,7 @@ const HeroSection = () => {
               <span>🌿 Prebiotic Blend</span>
               <span>🇮🇳 Crafted for India</span>
               <span>🧪 Indian Spice Formula</span>
-              <span>✨ 355ml Premium Can</span>
+              <span>✨ 255ML PREMIUM CAN</span>
             </div>
           </div>
 
