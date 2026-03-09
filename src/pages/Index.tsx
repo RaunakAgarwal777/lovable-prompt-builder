@@ -1,12 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import MarqueeTicker from "@/components/MarqueeTicker";
+import TurboSquadSection from "@/components/TurboSquadSection";
+import WhyTurboSection from "@/components/WhyTurboSection";
+import IngredientStorySection from "@/components/IngredientStorySection";
+import BrandTransitionDivider from "@/components/BrandTransitionDivider";
+import PopsiHeroSection from "@/components/PopsiHeroSection";
+import PopsiFlavorSection from "@/components/PopsiFlavorSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import OurStorySection from "@/components/OurStorySection";
+import ExpansionSection from "@/components/ExpansionSection";
+import WaitlistSection from "@/components/WaitlistSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <HeroSection />
+      <MarqueeTicker />
+      <TurboSquadSection />
+      <WhyTurboSection />
+      <IngredientStorySection />
+      <BrandTransitionDivider />
+      <PopsiHeroSection />
+      <PopsiFlavorSection />
+      <TestimonialsSection />
+      <OurStorySection />
+      <ExpansionSection />
+      <WaitlistSection />
+      <Footer />
     </div>
   );
 };
