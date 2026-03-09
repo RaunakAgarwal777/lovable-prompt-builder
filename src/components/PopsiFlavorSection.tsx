@@ -9,14 +9,16 @@ const flavors = [
     bottleColor: "#81C784",
     icons: ["🎋", "🍋", "🧊"],
     price: "₹18",
+    image: "/sugarcane-punch.jpg",
   },
   {
-    name: "Strawberry Plush",
+    name: "Strawberry Splash",
     tagline: "Sweet-tart and gorgeous pink. One sip and you'll understand.",
     bgColor: "#FCE4EC",
     bottleColor: "#F48FB1",
     icons: ["🍓", "🌹", "✨"],
     price: "₹18",
+    image: "/strawberry-splash.jpg",
   },
   {
     name: "Banana Bash",
@@ -25,6 +27,7 @@ const flavors = [
     bottleColor: "#FFD54F",
     icons: ["🍌", "🥛", "🍯"],
     price: "₹20",
+    image: "/banana-bash.jpg",
   },
   {
     name: "Coconut Water",
@@ -33,6 +36,7 @@ const flavors = [
     bottleColor: "#80CBC4",
     icons: ["🥥", "💧", "🌴"],
     price: "₹15",
+    image: "/coconut-water.jpg",
   },
   {
     name: "Indian Jeera",
@@ -41,6 +45,7 @@ const flavors = [
     bottleColor: "#E6C84D",
     icons: ["🫘", "🍋", "🍃"],
     price: "₹15",
+    image: "/indian-jeera.jpg",
   },
   {
     name: "Mango Smoothie",
@@ -49,12 +54,12 @@ const flavors = [
     bottleColor: "#FFB74D",
     icons: ["🥭", "🌸", "🍃"],
     price: "₹20",
+    image: "/mango-smoothie.jpg",
   },
 ];
 
 const PopsiFlavorSection = () => {
   const ref = useScrollReveal();
-
   return (
     <section id="popsi-flavors" className="py-20 sm:py-28 bg-popsi-cream" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
