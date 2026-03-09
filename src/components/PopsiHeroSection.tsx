@@ -24,8 +24,8 @@ const PopsiHeroSection = () => {
             </p>
             <a
               href="#popsi-flavors"
-              className="inline-flex px-7 py-3 rounded-full bg-popsi-brown text-primary-foreground font-body font-semibold text-sm hover:opacity-90 transition-opacity"
-            >
+              className="inline-flex px-7 py-3 rounded-full bg-popsi-brown text-primary-foreground font-body font-semibold text-sm hover:opacity-90 transition-opacity">
+              
               Meet POPSI Naturals →
             </a>
           </div>
@@ -35,16 +35,16 @@ const PopsiHeroSection = () => {
             <img
               src={popsiLineup}
               alt="POPSI Naturals lineup - all 6 flavors"
-              className="w-full max-w-lg rounded-2xl shadow-xl"
-            />
+              className="w-full max-w-lg shadow-2xl opacity-100 border-8 rounded-none border-none" />
+            
             <span className="absolute -top-4 left-4 text-2xl animate-float-1">🍌</span>
             <span className="absolute -top-2 right-6 text-xl animate-float-3">🍓</span>
             <span className="absolute top-10 right-0 text-lg animate-float-5">🥭</span>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default PopsiHeroSection;

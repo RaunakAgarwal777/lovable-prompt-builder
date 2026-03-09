@@ -10,8 +10,8 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-5 gap-8 items-center">
           {/* Left */}
           <div className="lg:col-span-3 text-foreground">
-            <span className="inline-block px-4 py-1.5 rounded-full bg-foreground/10 text-sm font-body font-medium mb-6">
-              🇮🇳 Made for India. Zero Sugar. Zero Guilt.
+            <span className="inline-block px-4 py-1.5 rounded-full bg-foreground/10 text-sm font-body font-medium mb-6">Made for India. Zero Sugar  Zero Guilt.
+
             </span>
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] mb-6">
               India's First<br />
@@ -24,14 +24,14 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-4 mb-8">
               <a
                 href="#turbo-squad"
-                className="px-7 py-3 rounded-full bg-foreground text-background font-body font-semibold text-sm hover:opacity-90 transition-opacity"
-              >
+                className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-sidebar-primary text-[sidebar-primary-foreground] bg-slate-950">
+                
                 Shop TURBO →
               </a>
               <a
                 href="#turbo-squad"
-                className="px-7 py-3 rounded-full border-2 border-foreground/40 text-foreground font-body font-semibold text-sm hover:bg-foreground/10 transition-colors"
-              >
+                className="px-7 py-3 rounded-full border-2 border-foreground/40 text-foreground font-body font-semibold text-sm hover:bg-foreground/10 transition-colors">
+                
                 Meet All Flavors
               </a>
             </div>
@@ -50,8 +50,8 @@ const HeroSection = () => {
             <img
               src={turboLineup}
               alt="TURBO energy drink lineup - all 5 flavors"
-              className="relative w-full max-w-md sm:max-w-lg rounded-2xl shadow-2xl transform rotate-[2deg]"
-            />
+              className="relative w-full max-w-md sm:max-w-lg rounded-2xl shadow-2xl transform rotate-[2deg]" />
+            
             <span className="absolute top-8 right-4 text-3xl animate-float-1">🍃</span>
             <span className="absolute top-20 left-2 text-2xl animate-float-2">🍋</span>
             <span className="absolute bottom-16 right-8 text-xl animate-float-3">✨</span>
@@ -59,8 +59,8 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
