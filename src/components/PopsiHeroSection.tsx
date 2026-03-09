@@ -1,12 +1,5 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
-
-const bottles = [
-  { name: "Jeera", color: "#E6C84D" },
-  { name: "Sugarcane", color: "#81C784" },
-  { name: "Banana", color: "#FFD54F" },
-  { name: "Strawberry", color: "#F48FB1" },
-  { name: "Mango", color: "#FFB74D" },
-];
+import popsiLineup from "@/assets/popsi-lineup.png";
 
 const PopsiHeroSection = () => {
   const ref = useScrollReveal();
@@ -37,27 +30,13 @@ const PopsiHeroSection = () => {
             </a>
           </div>
 
-          {/* Right — bottles */}
-          <div className="reveal flex justify-center items-end gap-3 relative">
-            {bottles.map((b, i) => (
-              <div
-                key={b.name}
-                className={`animate-float-${(i % 5) + 1} flex flex-col items-center`}
-                style={{ marginTop: i % 2 === 0 ? "0" : "20px" }}
-              >
-                <div
-                  className="w-16 sm:w-20 h-28 sm:h-36 rounded-t-[2rem] rounded-b-xl shadow-lg flex items-center justify-center"
-                  style={{ backgroundColor: b.color }}
-                >
-                  <span className="font-body text-[9px] sm:text-[10px] font-bold text-primary-foreground/90 text-center leading-tight">
-                    {b.name}
-                  </span>
-                </div>
-                {/* Cap */}
-                <div className="w-6 sm:w-8 h-3 rounded-b-lg" style={{ backgroundColor: b.color, opacity: 0.7 }} />
-              </div>
-            ))}
-            {/* Floating fruits */}
+          {/* Right — POPSI lineup image */}
+          <div className="reveal flex justify-center items-center relative">
+            <img
+              src={popsiLineup}
+              alt="POPSI Naturals lineup - all 6 flavors"
+              className="w-full max-w-lg rounded-2xl shadow-xl"
+            />
             <span className="absolute -top-4 left-4 text-2xl animate-float-1">🍌</span>
             <span className="absolute -top-2 right-6 text-xl animate-float-3">🍓</span>
             <span className="absolute top-10 right-0 text-lg animate-float-5">🥭</span>

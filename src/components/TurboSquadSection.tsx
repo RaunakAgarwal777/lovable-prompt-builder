@@ -67,7 +67,7 @@ const TurboSquadSection = () => {
           ))}
         </div>
         <p className="text-center font-body text-sm text-muted-foreground mt-8 reveal">
-          All cans: ₹49 · 355ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
+          All cans: ₹39 · 355ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
         </p>
       </div>
     </section>
