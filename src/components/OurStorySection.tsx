@@ -1,4 +1,5 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import turboSpiceRush from "@/assets/turbo-spice-rush.jpeg";
 
 const OurStorySection = () => {
   const ref = useScrollReveal();
