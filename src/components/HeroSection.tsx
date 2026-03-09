@@ -1,3 +1,5 @@
+import turboLineup from "@/assets/turbo-lineup.jpeg";
+
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-primary pt-16">
