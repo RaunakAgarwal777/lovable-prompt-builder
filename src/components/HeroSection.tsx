@@ -48,14 +48,12 @@ const HeroSection = () => {
           <div className="lg:col-span-2 flex justify-center items-center relative">
             {/* Glow */}
             <div className="absolute w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-primary-foreground/10 blur-3xl" />
-            {/* Can */}
-            <div className="relative w-48 sm:w-56 h-[320px] sm:h-[380px] rounded-3xl bg-gradient-to-b from-[hsl(193,100%,50%)] to-[hsl(193,100%,35%)] shadow-2xl flex items-center justify-center transform rotate-[6deg]">
-              <div className="text-center text-primary-foreground">
-                <p className="font-display text-3xl font-bold">TURBO</p>
-                <p className="font-body text-xs mt-1 tracking-widest uppercase">Cyan Blue</p>
-                <p className="font-body text-[10px] mt-3 opacity-60">355ml</p>
-              </div>
-            </div>
+            {/* Can lineup image */}
+            <img
+              src={turboLineup}
+              alt="TURBO energy drink lineup - Cyan Blue, Mango Blaze, Green Lemon, and Spice Rush cans"
+              className="relative w-full max-w-md sm:max-w-lg rounded-2xl shadow-2xl transform rotate-[2deg]"
+            />
             {/* Floating elements */}
             <span className="absolute top-8 right-4 text-3xl animate-float-1">🍃</span>
             <span className="absolute top-20 left-2 text-2xl animate-float-2">🍋</span>

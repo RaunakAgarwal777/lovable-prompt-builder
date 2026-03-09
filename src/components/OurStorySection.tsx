@@ -10,16 +10,12 @@ const OurStorySection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left — editorial image placeholder */}
           <div className="reveal">
-            <div className="w-full aspect-[4/5] rounded-3xl bg-turbo-spice flex items-center justify-center relative overflow-hidden shadow-xl">
-              <div className="text-center text-primary-foreground">
-                <p className="font-display text-3xl font-bold">TURBO</p>
-                <p className="font-body text-sm mt-2 opacity-70">Spice Rush</p>
-              </div>
-              {/* Decorative spices */}
-              <span className="absolute top-6 right-8 text-3xl animate-float-1">⭐</span>
-              <span className="absolute bottom-10 left-6 text-2xl animate-float-3">🫚</span>
-              <span className="absolute top-16 left-10 text-xl animate-float-2">🍃</span>
-              <span className="absolute bottom-20 right-12 text-2xl animate-float-4">🌿</span>
+            <div className="w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-xl">
+              <img
+                src={turboSpiceRush}
+                alt="TURBO Spice Rush can surrounded by Indian spices"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
           {/* Right — text */}
