@@ -24,7 +24,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-4 mb-8">
               <a
                 href="#turbo-squad"
-                className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-[sidebar-primary-foreground] bg-accent text-primary-foreground">
+                className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-[sidebar-primary-foreground] text-primary-foreground bg-primary">
                 
                 Shop TURBO →
               </a>
