@@ -28,8 +28,8 @@ const Navbar = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-1.5 font-display text-xl font-bold text-foreground">Popsi & TURBO Beverages
-POPSI <Zap className="w-5 h-5 text-primary" />
+        <a href="#" className="flex items-center gap-1.5 font-display text-xl font-bold text-foreground">TURBO Beverages
+          <Zap className="w-5 h-5 text-primary" />
           POPSI Beverages
         </a>
 
