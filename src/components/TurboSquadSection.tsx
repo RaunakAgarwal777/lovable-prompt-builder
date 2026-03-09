@@ -1,5 +1,10 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import TurboFlavorCard from "./TurboFlavorCard";
+import turboCyanBlue from "@/assets/turbo-cyan-blue.jpg";
+import turboMangoBlaze from "@/assets/turbo-mango-blaze.jpg";
+import turboGreenLemon from "@/assets/turbo-green-lemon.jpg";
+import turboSpiceRush from "@/assets/turbo-spice-rush-single.jpeg";
+import turboCrimson from "@/assets/turbo-crimson.jpg";
 
 const flavors = [
   {
@@ -8,6 +13,7 @@ const flavors = [
     tagline: "Cool. Crisp. Electrifying. India's new favorite energy hit.",
     bgColor: "#00B4D8",
     icons: ["🍃", "🍋", "⚡"],
+    image: turboCyanBlue,
   },
   {
     name: "TURBO Mango Blaze",
@@ -15,6 +21,7 @@ const flavors = [
     tagline: "India's most-loved fruit, now sparkling with attitude.",
     bgColor: "#F4A020",
     icons: ["🥭", "🌶️", "✨"],
+    image: turboMangoBlaze,
   },
   {
     name: "TURBO Green Lemon",
@@ -22,6 +29,7 @@ const flavors = [
     tagline: "Tangy. Refreshing. The one you crack open at noon.",
     bgColor: "#8DC63F",
     icons: ["🍋", "🍈", "🍃"],
+    image: turboGreenLemon,
   },
   {
     name: "TURBO Spice Rush",
@@ -29,6 +37,7 @@ const flavors = [
     tagline: "Indian spice blend meets zero-sugar energy. This one bites back.",
     bgColor: "#2D5A3D",
     icons: ["⭐", "🫚", "🌿"],
+    image: turboSpiceRush,
   },
   {
     name: "TURBO Crimson",
@@ -36,6 +45,7 @@ const flavors = [
     tagline: "Deep, bold, unapologetically desi. The night shift flavor.",
     bgColor: "#C0392B",
     icons: ["🌺", "🫐", "🍂"],
+    image: turboCrimson,
   },
 ];
 

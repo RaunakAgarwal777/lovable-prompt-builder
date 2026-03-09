@@ -4,6 +4,7 @@ interface TurboFlavor {
   tagline: string;
   bgColor: string;
   icons: string[];
+  image: string;
 }
 
 const TurboFlavorCard = ({ flavor }: { flavor: TurboFlavor }) => {
@@ -11,16 +12,14 @@ const TurboFlavorCard = ({ flavor }: { flavor: TurboFlavor }) => {
     <div className="card-tilt flex-shrink-0 w-[270px] sm:w-[280px] rounded-3xl overflow-hidden shadow-lg bg-card">
       {/* Top colored area */}
       <div
-        className="h-60 flex flex-col items-center justify-center relative"
+        className="h-60 flex flex-col items-center justify-center relative overflow-hidden"
         style={{ backgroundColor: flavor.bgColor }}
       >
-        {/* Can placeholder */}
-        <div className="w-28 h-44 rounded-2xl bg-gradient-to-b from-white/20 to-black/10 flex items-center justify-center shadow-xl">
-          <div className="text-center text-primary-foreground">
-            <p className="font-display text-xl font-bold">TURBO</p>
-            <p className="font-body text-[10px] tracking-widest uppercase mt-0.5">{flavor.subtitle}</p>
-          </div>
-        </div>
+        <img
+          src={flavor.image}
+          alt={`${flavor.name} can`}
+          className="h-56 w-auto object-contain drop-shadow-xl"
+        />
       </div>
       {/* Bottom info */}
       <div className="p-5">
