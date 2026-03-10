@@ -71,6 +71,7 @@ const TurboSquadSection = () => {
             </div>
           )}
         </div>
+        <p className="text-center font-body text-xs text-muted-foreground mt-3 animate-pulse">← Swipe for more flavors →</p>
         <p className="text-center font-body text-sm text-muted-foreground mt-8 reveal">All cans: ₹40 · 225ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
 
         </p>
