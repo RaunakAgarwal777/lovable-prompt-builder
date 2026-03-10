@@ -58,7 +58,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-primary-foreground/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-primary-foreground/40">
-            © 2026 POPSI Beverages Pvt. Ltd. · Made with 🌿 in India
+            © 2026 TURBO Beverages Pvt. Ltd. · Made with 🌿 in India
           </p>
           <div className="flex gap-4">
             {["Instagram", "TikTok", "YouTube"].map((s) => (
