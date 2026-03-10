@@ -2,9 +2,9 @@ interface PopsiFlavor {
   name: string;
   tagline: string;
   bgColor: string;
-  bottleColor: string;
   icons: string[];
   price: string;
+  image: string;
 }
 
 const PopsiFlavorCard = ({ flavor }: { flavor: PopsiFlavor }) => {
@@ -14,15 +14,11 @@ const PopsiFlavorCard = ({ flavor }: { flavor: PopsiFlavor }) => {
         className="h-56 flex items-center justify-center relative"
         style={{ backgroundColor: flavor.bgColor }}
       >
-        {/* Bottle placeholder */}
-        <div
-          className="w-20 h-32 rounded-t-[1.5rem] rounded-b-xl shadow-xl flex items-center justify-center"
-          style={{ backgroundColor: flavor.bottleColor }}
-        >
-          <span className="font-body text-[10px] font-bold text-primary-foreground/80 text-center px-1 leading-tight">
-            POPSI<br/>{flavor.name}
-          </span>
-        </div>
+        <img
+          src={flavor.image}
+          alt={`POPSI ${flavor.name} bottle`}
+          className="h-48 w-auto object-contain drop-shadow-xl"
+        />
       </div>
       <div className="p-5">
         <h3 className="font-display text-lg font-bold text-foreground">{flavor.name}</h3>

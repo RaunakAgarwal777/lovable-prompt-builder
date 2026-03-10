@@ -13,7 +13,8 @@ const flavors = [
   tagline: "Cool. Crisp. Electrifying. India's new favorite energy hit.",
   bgColor: "#00B4D8",
   icons: ["🍃", "🍋", "⚡"],
-  image: turboCyanBlue
+  image: turboCyanBlue,
+  price: "₹40"
 },
 {
   name: "TURBO Mango Blaze",
@@ -21,7 +22,8 @@ const flavors = [
   tagline: "India's most-loved fruit, now sparkling with attitude.",
   bgColor: "#F4A020",
   icons: ["🥭", "🌶️", "✨"],
-  image: turboMangoBlaze
+  image: turboMangoBlaze,
+  price: "₹40"
 },
 {
   name: "TURBO Green Lemon",
@@ -29,7 +31,8 @@ const flavors = [
   tagline: "Tangy. Refreshing. The one you crack open at noon.",
   bgColor: "#8DC63F",
   icons: ["🍋", "🍈", "🍃"],
-  image: turboGreenLemon
+  image: turboGreenLemon,
+  price: "₹40"
 },
 {
   name: "TURBO Spice Rush",
@@ -37,7 +40,8 @@ const flavors = [
   tagline: "Indian spice blend meets zero-sugar energy. This one bites back.",
   bgColor: "#2D5A3D",
   icons: ["⭐", "🫚", "🌿"],
-  image: turboSpiceRush
+  image: turboSpiceRush,
+  price: "₹40"
 },
 {
   name: "TURBO Crimson",
@@ -45,7 +49,8 @@ const flavors = [
   tagline: "Deep, bold, unapologetically desi. The night shift flavor.",
   bgColor: "#C0392B",
   icons: ["🌺", "🫐", "🍂"],
-  image: turboCrimson
+  image: turboCrimson,
+  price: "₹40"
 }];
 
 

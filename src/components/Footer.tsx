@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-1.5 font-display text-xl font-bold text-primary-foreground mb-3">
               <Zap className="w-5 h-5 text-primary" />
-              POPSI Beverages
+              TURBO Beverages
             </div>
             <p className="font-body text-sm text-primary-foreground/50 italic">
               Energy for India. Naturals for Everyone.
@@ -58,7 +58,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-primary-foreground/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-primary-foreground/40">
-            © 2026 POPSI Beverages Pvt. Ltd. · Made with 🌿 in India
+            © 2026 TURBO Beverages Pvt. Ltd. · Made with 🌿 in India
           </p>
           <div className="flex gap-4">
             {["Instagram", "TikTok", "YouTube"].map((s) => (

@@ -5,6 +5,7 @@ interface TurboFlavor {
   bgColor: string;
   icons: string[];
   image: string;
+  price: string;
 }
 
 const TurboFlavorCard = ({ flavor }: { flavor: TurboFlavor }) => {
@@ -26,9 +27,14 @@ const TurboFlavorCard = ({ flavor }: { flavor: TurboFlavor }) => {
         <h3 className="font-display text-xl font-bold text-foreground">{flavor.name}</h3>
         <p className="font-body text-sm text-muted-foreground italic mt-1 leading-snug">{flavor.tagline}</p>
         <div className="flex gap-2 mt-3 text-lg">{flavor.icons.map((icon, i) => <span key={i}>{icon}</span>)}</div>
-        <span className="inline-block mt-3 px-3 py-1 rounded-full bg-muted text-muted-foreground font-body text-xs font-medium">
-          Zero Sugar · Zero Calorie
-        </span>
+        <div className="flex items-center gap-2 mt-3">
+          <span className="inline-block px-3 py-1 rounded-full bg-muted text-muted-foreground font-body text-xs font-medium">
+            Zero Sugar · Zero Calorie
+          </span>
+          <span className="inline-block px-3 py-1 rounded-full bg-foreground/10 text-foreground font-body text-xs font-bold">
+            {flavor.price}
+          </span>
+        </div>
         <a
           href="#waitlist"
           className="mt-4 block text-center px-4 py-2.5 rounded-full font-body text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
