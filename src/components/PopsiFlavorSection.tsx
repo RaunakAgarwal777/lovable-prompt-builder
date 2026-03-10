@@ -1,54 +1,60 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import PopsiFlavorCard from "./PopsiFlavorCard";
+import popsiSugarcane from "@/assets/popsi-sugarcane.png";
+import popsiStrawberry from "@/assets/popsi-strawberry.png";
+import popsiBanana from "@/assets/popsi-banana.png";
+import popsiCoconut from "@/assets/popsi-coconut.png";
+import popsiJeera from "@/assets/popsi-jeera.png";
+import popsiMango from "@/assets/popsi-mango.png";
 
 const flavors = [
   {
     name: "Sugarcane Punch",
     tagline: "Fresh-pressed sugarcane in every sip. Summer in a bottle.",
     bgColor: "#E8F5E9",
-    bottleColor: "#81C784",
     icons: ["🎋", "🍋", "🧊"],
     price: "₹18",
+    image: popsiSugarcane,
   },
   {
-    name: "Strawberry Plush",
+    name: "Strawberry Splash",
     tagline: "Sweet-tart and gorgeous pink. One sip and you'll understand.",
     bgColor: "#FCE4EC",
-    bottleColor: "#F48FB1",
     icons: ["🍓", "🌹", "✨"],
     price: "₹18",
+    image: popsiStrawberry,
   },
   {
     name: "Banana Bash",
     tagline: "Thick, creamy, and naturally sweet. The one kids steal from you.",
     bgColor: "#FFFDE7",
-    bottleColor: "#FFD54F",
     icons: ["🍌", "🥛", "🍯"],
     price: "₹20",
+    image: popsiBanana,
   },
   {
     name: "Coconut Water",
     tagline: "Pure, refreshing coconut water straight from nature. Hydration at its best.",
     bgColor: "#E0F2F1",
-    bottleColor: "#80CBC4",
     icons: ["🥥", "💧", "🌴"],
     price: "₹15",
+    image: popsiCoconut,
   },
   {
     name: "Indian Jeera",
     tagline: "The OG desi digestive. Tangy jeera water, now in a bottle.",
     bgColor: "#FFF0CC",
-    bottleColor: "#E6C84D",
     icons: ["🫘", "🍋", "🍃"],
     price: "₹15",
+    image: popsiJeera,
   },
   {
     name: "Mango Smoothie",
     tagline: "Pure Alphonso vibes. India's king of fruits, bottled with love.",
     bgColor: "#FFF3E0",
-    bottleColor: "#FFB74D",
     icons: ["🥭", "🌸", "🍃"],
     price: "₹20",
+    image: popsiMango,
   },
 ];
 

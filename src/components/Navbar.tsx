@@ -30,7 +30,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-1.5 font-display text-xl font-bold text-foreground">
           <Zap className="w-5 h-5 text-primary" />
-          POPSI Beverages
+          TURBO Beverages
         </a>
 
         {/* Desktop links */}
