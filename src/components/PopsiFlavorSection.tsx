@@ -74,6 +74,7 @@ const PopsiFlavorSection = () => {
             </div>
           ))}
         </div>
+        <p className="text-center font-body text-xs text-muted-foreground mt-3 animate-pulse">← Swipe for more flavors →</p>
       </div>
     </section>
   );
