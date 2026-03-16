@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-1.5 font-display text-xl font-bold text-primary-foreground mb-3">
               <Zap className="w-5 h-5 text-primary" />
-              TURBO Beverages
+              RUSHMORE Beverages
             </div>
             <p className="font-body text-sm text-primary-foreground/50 italic">
               Energy for India. Naturals for Everyone.
