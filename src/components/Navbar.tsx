@@ -12,7 +12,7 @@ const Navbar = () => {
   }, []);
 
   const links = [
-    { label: "TURBO", href: "#turbo-squad" },
+    { label: "RUSHMORE", href: "#turbo-squad" },
     { label: "POPSI Naturals", href: "#popsi-naturals" },
     { label: "Our Story", href: "#our-story" },
     { label: "Waitlist", href: "#waitlist" },
@@ -30,7 +30,7 @@ const Navbar = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-1.5 font-display text-xl font-bold text-foreground">
           <Zap className="w-5 h-5 text-primary" />
-          TURBO Beverages
+          RUSHMORE Beverages
         </a>
 
         {/* Desktop links */}
