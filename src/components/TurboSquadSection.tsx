@@ -8,7 +8,7 @@ import turboCrimson from "@/assets/turbo-crimson.jpg";
 
 const flavors = [
 {
-  name: "TURBO Cyan Blue",
+  name: "RUSHMORE Cyan Blue",
   subtitle: "Cyan Blue",
   tagline: "Cool. Crisp. Electrifying. India's new favorite energy hit.",
   bgColor: "#00B4D8",
