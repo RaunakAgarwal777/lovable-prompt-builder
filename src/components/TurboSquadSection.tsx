@@ -17,7 +17,7 @@ const flavors = [
   price: "₹40"
 },
 {
-  name: "TURBO Mango Blaze",
+  name: "RUSHMORE Mango Blaze",
   subtitle: "Mango Blaze",
   tagline: "India's most-loved fruit, now sparkling with attitude.",
   bgColor: "#F4A020",
