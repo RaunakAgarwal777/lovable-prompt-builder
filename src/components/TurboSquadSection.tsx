@@ -44,7 +44,7 @@ const flavors = [
   price: "₹40"
 },
 {
-  name: "TURBO Crimson",
+  name: "RUSHMORE Crimson",
   subtitle: "Crimson",
   tagline: "Deep, bold, unapologetically desi. The night shift flavor.",
   bgColor: "#C0392B",
