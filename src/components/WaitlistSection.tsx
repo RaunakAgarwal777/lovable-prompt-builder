@@ -26,7 +26,7 @@ const WaitlistSection = () => {
         {submitted ? (
           <div className="reveal visible">
             <p className="font-body text-lg text-primary-foreground font-semibold">
-              ⚡ You're in! Welcome to the Turbo Tribe.
+              ⚡ You're in! Welcome to the Rushmore Tribe.
             </p>
           </div>
         ) : (

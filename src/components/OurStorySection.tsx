@@ -15,7 +15,7 @@ const OurStorySection = () => {
           </h2>
           <div className="space-y-4 font-body text-base text-muted-foreground leading-relaxed max-w-2xl mx-auto">
             <p>
-              TURBO was born from a simple question: why do all energy drinks taste like they were made for someone else?
+              RUSHMORE was born from a simple question: why do all energy drinks taste like they were made for someone else?
             </p>
             <p>
               We went back to Indian spices — cardamom, ginger, star anise — and built a zero-sugar prebiotic tonic that gives you real energy without the crash or the guilt.

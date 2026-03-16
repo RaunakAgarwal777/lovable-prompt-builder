@@ -49,7 +49,7 @@ const HeroSection = () => {
             <div className="absolute w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-foreground/5 blur-3xl" />
             <img
               src={turboLineup}
-              alt="TURBO energy drink lineup - all 5 flavors"
+              alt="RUSHMORE energy drink lineup - all 5 flavors"
               className="relative w-full max-w-md sm:max-w-lg rounded-2xl shadow-2xl transform rotate-[2deg]" />
             
             <span className="absolute top-8 right-4 text-3xl animate-float-1">🍃</span>
