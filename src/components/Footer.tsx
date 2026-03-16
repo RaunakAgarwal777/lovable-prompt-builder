@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           {/* Col 2 */}
           <div>
-            <h4 className="font-body text-sm font-bold text-primary-foreground mb-4 uppercase tracking-wider">TURBO</h4>
+            <h4 className="font-body text-sm font-bold text-primary-foreground mb-4 uppercase tracking-wider">RUSHMORE</h4>
             <ul className="space-y-2">
               {["Cyan Blue", "Mango Blaze", "Green Lemon", "Spice Rush", "Crimson"].map((f) => (
                 <li key={f}>
