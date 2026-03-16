@@ -26,7 +26,7 @@ const HeroSection = () => {
                 href="#turbo-squad"
                 className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-[sidebar-primary-foreground] text-primary-foreground bg-primary">
                 
-                Shop TURBO →
+                Shop RUSHMORE →
               </a>
               <a
                 href="#turbo-squad"
