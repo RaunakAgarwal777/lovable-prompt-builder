@@ -35,7 +35,7 @@ const flavors = [
   price: "₹40"
 },
 {
-  name: "TURBO Spice Rush",
+  name: "RUSHMORE Spice Rush",
   subtitle: "Spice Rush",
   tagline: "Indian spice blend meets zero-sugar energy. This one bites back.",
   bgColor: "#2D5A3D",
