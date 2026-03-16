@@ -26,7 +26,7 @@ const flavors = [
   price: "₹40"
 },
 {
-  name: "TURBO Green Lemon",
+  name: "RUSHMORE Green Lemon",
   subtitle: "Green Lemon",
   tagline: "Tangy. Refreshing. The one you crack open at noon.",
   bgColor: "#8DC63F",
