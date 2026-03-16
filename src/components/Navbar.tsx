@@ -12,7 +12,7 @@ const Navbar = () => {
   }, []);
 
   const links = [
-    { label: "TURBO", href: "#turbo-squad" },
+    { label: "RUSHMORE", href: "#turbo-squad" },
     { label: "POPSI Naturals", href: "#popsi-naturals" },
     { label: "Our Story", href: "#our-story" },
     { label: "Waitlist", href: "#waitlist" },
