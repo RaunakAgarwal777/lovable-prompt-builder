@@ -18,7 +18,7 @@ const HeroSection = () => {
               Culturally Rooted<br />
               Energy Drink.
             </h1>
-            <p className="text-lg sm:text-xl font-body text-foreground/70 mb-8">Zero Sugar · Zero Calorie · Sparkling Prebiotic Tonic · ₹40
+            <p className="text-lg sm:text-xl font-body text-foreground/70 mb-8">Zero Sugar · Zero Calorie · Sparkling Prebiotic Tonic · ₹49
 
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
