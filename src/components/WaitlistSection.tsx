@@ -18,7 +18,7 @@ const WaitlistSection = () => {
     <section id="waitlist" className="py-20 sm:py-28 bg-primary" ref={ref}>
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-display text-4xl sm:text-5xl font-bold text-primary-foreground mb-4 reveal">
-          Be First. Join the Rushmore Tribe.
+          Be First. Join the Turbo Tribe.
         </h2>
         <p className="font-body text-lg text-primary-foreground/80 mb-10 reveal">
           Get early access, launch discounts, and flavor drops straight to your inbox.
@@ -26,7 +26,7 @@ const WaitlistSection = () => {
         {submitted ? (
           <div className="reveal visible">
             <p className="font-body text-lg text-primary-foreground font-semibold">
-              ⚡ You're in! Welcome to the Rushmore Tribe.
+              ⚡ You're in! Welcome to the Turbo Tribe.
             </p>
           </div>
         ) : (

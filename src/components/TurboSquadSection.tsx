@@ -8,7 +8,7 @@ import turboCrimson from "@/assets/turbo-crimson.jpg";
 
 const flavors = [
 {
-  name: "RUSHMORE Cyan Blue",
+  name: "TURBO Cyan Blue",
   subtitle: "Cyan Blue",
   tagline: "Cool. Crisp. Electrifying. India's new favorite energy hit.",
   bgColor: "#00B4D8",
@@ -17,7 +17,7 @@ const flavors = [
   price: "₹49"
 },
 {
-  name: "RUSHMORE Mango Blaze",
+  name: "TURBO Mango Blaze",
   subtitle: "Mango Blaze",
   tagline: "India's most-loved fruit, now sparkling with attitude.",
   bgColor: "#F4A020",
@@ -26,7 +26,7 @@ const flavors = [
   price: "₹49"
 },
 {
-  name: "RUSHMORE Green Lemon",
+  name: "TURBO Green Lemon",
   subtitle: "Green Lemon",
   tagline: "Tangy. Refreshing. The one you crack open at noon.",
   bgColor: "#8DC63F",
@@ -35,7 +35,7 @@ const flavors = [
   price: "₹49"
 },
 {
-  name: "RUSHMORE Spice Rush",
+  name: "TURBO Spice Rush",
   subtitle: "Spice Rush",
   tagline: "Indian spice blend meets zero-sugar energy. This one bites back.",
   bgColor: "#2D5A3D",
@@ -44,7 +44,7 @@ const flavors = [
   price: "₹49"
 },
 {
-  name: "RUSHMORE Crimson",
+  name: "TURBO Crimson",
   subtitle: "Crimson",
   tagline: "Deep, bold, unapologetically desi. The night shift flavor.",
   bgColor: "#C0392B",
@@ -61,7 +61,7 @@ const TurboSquadSection = () => {
     <section id="turbo-squad" className="py-20 sm:py-28 bg-background" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 reveal">
-          <h2 className="font-display text-4xl sm:text-5xl font-bold text-foreground">Meet the Rushmore Squad.</h2>
+          <h2 className="font-display text-4xl sm:text-5xl font-bold text-foreground">Meet the Turbo Squad.</h2>
           <p className="font-body text-lg text-muted-foreground mt-3">Five flavors. All zero sugar. All very Indian.</p>
         </div>
         <div className="flex gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-4 reveal">
