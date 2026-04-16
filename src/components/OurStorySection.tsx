@@ -8,7 +8,7 @@ const OurStorySection = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="reveal">
           <p className="font-body text-xs font-bold uppercase tracking-[0.2em] text-turmeric mb-4">
-            The RUSHMORE Story
+            The TURBO Story
           </p>
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-turbo-spice mb-6 leading-snug">
             Energy drinks forgot about India. So we built our own.
