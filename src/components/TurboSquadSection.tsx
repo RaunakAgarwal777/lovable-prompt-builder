@@ -14,7 +14,7 @@ const flavors = [
   bgColor: "#00B4D8",
   icons: ["🍃", "🍋", "⚡"],
   image: turboCyanBlue,
-  price: "₹40"
+  price: "₹49"
 },
 {
   name: "RUSHMORE Mango Blaze",
@@ -23,7 +23,7 @@ const flavors = [
   bgColor: "#F4A020",
   icons: ["🥭", "🌶️", "✨"],
   image: turboMangoBlaze,
-  price: "₹40"
+  price: "₹49"
 },
 {
   name: "RUSHMORE Green Lemon",
@@ -32,7 +32,7 @@ const flavors = [
   bgColor: "#8DC63F",
   icons: ["🍋", "🍈", "🍃"],
   image: turboGreenLemon,
-  price: "₹40"
+  price: "₹49"
 },
 {
   name: "RUSHMORE Spice Rush",
@@ -41,7 +41,7 @@ const flavors = [
   bgColor: "#2D5A3D",
   icons: ["⭐", "🫚", "🌿"],
   image: turboSpiceRush,
-  price: "₹40"
+  price: "₹49"
 },
 {
   name: "RUSHMORE Crimson",
@@ -50,7 +50,7 @@ const flavors = [
   bgColor: "#C0392B",
   icons: ["🌺", "🫐", "🍂"],
   image: turboCrimson,
-  price: "₹40"
+  price: "₹49"
 }];
 
 
@@ -72,7 +72,7 @@ const TurboSquadSection = () => {
           )}
         </div>
         <p className="text-center font-body text-xs text-muted-foreground mt-3 animate-pulse">← Swipe for more flavors →</p>
-        <p className="text-center font-body text-sm text-muted-foreground mt-8 reveal">All cans: ₹40 · 225ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
+        <p className="text-center font-body text-sm text-muted-foreground mt-8 reveal">All cans: ₹49 · 225ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
 
         </p>
       </div>
