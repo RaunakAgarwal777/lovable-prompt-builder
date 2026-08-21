@@ -61,8 +61,9 @@ const TurboSquadSection = () => {
     <section id="turbo-squad" className="py-20 sm:py-28 bg-background" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 reveal">
-          <h2 className="font-display text-4xl sm:text-5xl font-bold text-foreground">Meet the Rushmore Squad.</h2>
-          <p className="font-body text-lg text-muted-foreground mt-3">Five flavors. All zero sugar. All very Indian.</p>
+          <p className="eyebrow text-primary mb-3">The Lineup</p>
+          <h2 className="font-display text-4xl sm:text-6xl font-black text-foreground leading-[1.05]">Meet the Rushmore Squad.</h2>
+          <p className="font-body text-lg text-muted-foreground mt-4">Five flavors. All zero sugar. All very Indian.</p>
         </div>
         <div className="flex gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-4 reveal">
           {flavors.map((f) =>
