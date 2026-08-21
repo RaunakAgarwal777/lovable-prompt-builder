@@ -9,7 +9,7 @@ interface PopsiFlavor {
 
 const PopsiFlavorCard = ({ flavor }: { flavor: PopsiFlavor }) => {
   return (
-    <div className="card-tilt flex-shrink-0 w-[270px] sm:w-[280px] rounded-[2rem] overflow-hidden shadow-lg bg-card">
+    <div className="card-tilt flex-shrink-0 w-[270px] sm:w-[280px] rounded-[2rem] overflow-hidden bg-card shadow-soft border border-border">
       <div
         className="h-56 flex items-center justify-center relative"
         style={{ backgroundColor: flavor.bgColor }}
@@ -17,19 +17,21 @@ const PopsiFlavorCard = ({ flavor }: { flavor: PopsiFlavor }) => {
         <img
           src={flavor.image}
           alt={`POPSI ${flavor.name} bottle`}
-          className="h-48 w-auto object-contain drop-shadow-xl"
+          className="h-48 w-auto object-contain drop-shadow-2xl"
         />
       </div>
       <div className="p-5">
-        <h3 className="font-display text-lg font-bold text-foreground">{flavor.name}</h3>
-        <p className="font-body text-sm text-muted-foreground italic mt-1 leading-snug">{flavor.tagline}</p>
-        <div className="flex gap-2 mt-3 text-lg">{flavor.icons.map((icon, i) => <span key={i}>{icon}</span>)}</div>
-        <span className="inline-block mt-3 px-3 py-1 rounded-full bg-muted text-muted-foreground font-body text-xs font-bold">
-          {flavor.price}
-        </span>
+        <h3 className="font-display text-lg font-black text-foreground leading-tight">{flavor.name}</h3>
+        <p className="font-body text-sm text-muted-foreground mt-1.5 leading-snug">{flavor.tagline}</p>
+        <div className="flex items-center justify-between mt-4">
+          <div className="flex gap-2 text-lg">{flavor.icons.map((icon, i) => <span key={i}>{icon}</span>)}</div>
+          <span className="inline-block px-3 py-1 rounded-full bg-popsi-brown text-cream font-body text-xs font-bold">
+            {flavor.price}
+          </span>
+        </div>
         <a
           href="#waitlist"
-          className="mt-4 block text-center px-4 py-2.5 rounded-full bg-popsi-brown text-primary-foreground font-body text-sm font-semibold hover:opacity-90 transition-opacity"
+          className="mt-5 block text-center px-4 py-3 rounded-full bg-popsi-brown text-cream font-body text-sm font-bold transition-transform hover:-translate-y-0.5"
         >
           Join Waitlist →
         </a>

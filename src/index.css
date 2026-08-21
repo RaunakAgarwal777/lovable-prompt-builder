@@ -4,47 +4,64 @@
 
 @layer base {
   :root {
-    --background: 60 20% 98%;
-    --foreground: 24 30% 12%;
+    /* Warm Masala Pop */
+    --background: 34 100% 96%;
+    --foreground: 22 45% 13%;
 
     --card: 0 0% 100%;
-    --card-foreground: 24 30% 12%;
+    --card-foreground: 22 45% 13%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 24 30% 12%;
+    --popover-foreground: 22 45% 13%;
 
-    --primary: 193 100% 42%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 20 82% 50%;
+    --primary-foreground: 36 100% 98%;
 
-    --secondary: 35 90% 54%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 40 95% 58%;
+    --secondary-foreground: 22 45% 13%;
 
-    --muted: 40 30% 96%;
-    --muted-foreground: 24 10% 46%;
+    --muted: 32 60% 93%;
+    --muted-foreground: 22 20% 40%;
 
-    --accent: 42 80% 50%;
-    --accent-foreground: 24 30% 12%;
+    --accent: 190 90% 42%;
+    --accent-foreground: 36 100% 98%;
 
-    --destructive: 6 70% 46%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 4 72% 48%;
+    --destructive-foreground: 36 100% 98%;
 
-    --border: 40 20% 90%;
-    --input: 40 20% 90%;
-    --ring: 193 100% 42%;
+    --border: 30 40% 88%;
+    --input: 30 40% 88%;
+    --ring: 20 82% 50%;
 
     --radius: 1.5rem;
 
-    /* POPSI Brand Colors */
+    /* Section tints (scroll rhythm) */
+    --peach: 32 92% 90%;
+    --peach-deep: 30 88% 84%;
+    --cream: 38 100% 96%;
+    --mint-cream: 150 40% 94%;
+    --saffron: 38 92% 62%;
+    --spice-deep: 152 38% 20%;
+    --ink: 22 45% 13%;
+
+    /* Brand Colors */
     --turbo-cyan: 193 100% 42%;
     --turbo-mango: 35 90% 54%;
     --turbo-green: 90 54% 51%;
-    --turbo-spice: 150 33% 30%;
+    --turbo-spice: 152 38% 24%;
     --turbo-crimson: 6 62% 46%;
-    --popsi-cream: 33 100% 97%;
-    --popsi-brown: 24 30% 16%;
-    --turmeric: 42 80% 50%;
+    --popsi-cream: 38 100% 96%;
+    --popsi-brown: 22 45% 16%;
+    --turmeric: 42 88% 52%;
     --dark-navy: 213 52% 11%;
-    --near-black: 0 0% 10%;
+    --near-black: 22 40% 9%;
+
+    /* Gradients & shadows */
+    --gradient-hero: linear-gradient(170deg, hsl(var(--cream)) 0%, hsl(var(--peach)) 45%, hsl(var(--peach-deep)) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(var(--secondary)), hsl(var(--primary)));
+    --shadow-soft: 0 18px 45px -20px hsl(var(--ink) / 0.35);
+    --shadow-pop: 0 14px 0 -6px hsl(var(--ink) / 0.08), 0 22px 40px -22px hsl(var(--ink) / 0.45);
+    --shadow-btn: 0 10px 22px -10px hsl(var(--primary) / 0.65);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -65,16 +82,36 @@
     @apply bg-background text-foreground font-body;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Fraunces', Georgia, serif;
+    letter-spacing: -0.02em;
   }
 }
 
 @layer components {
   .font-display {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Fraunces', Georgia, serif;
+    font-variation-settings: "SOFT" 40, "WONK" 1;
+    letter-spacing: -0.02em;
   }
   .font-body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+  .eyebrow {
+    @apply font-body text-xs font-bold uppercase tracking-[0.2em];
+  }
+  .btn-pop {
+    box-shadow: var(--shadow-btn);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  }
+  .btn-pop:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 30px -12px hsl(var(--primary) / 0.7);
+  }
+  .shadow-pop {
+    box-shadow: var(--shadow-pop);
+  }
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
   }
 }
 
@@ -102,12 +139,19 @@
 .animate-float-4 { animation: float-slow 3s ease-in-out 1.5s infinite; }
 .animate-float-5 { animation: float-gentle 4.5s ease-in-out 2s infinite; }
 
+/* Swipe hint arrow nudge */
+@keyframes nudge-x {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+.animate-nudge { animation: nudge-x 1.4s ease-in-out infinite; }
+
 /* Card hover tilt */
 .card-tilt {
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card-tilt:hover {
-  transform: perspective(800px) rotateY(4deg) rotateX(2deg) scale(1.02);
+  transform: perspective(800px) rotateY(4deg) rotateX(2deg) scale(1.02) translateY(-4px);
 }
 
 /* Scroll reveal */

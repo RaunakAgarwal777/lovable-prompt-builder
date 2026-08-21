@@ -62,9 +62,10 @@ const PopsiFlavorSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="popsi-flavors" className="py-20 sm:py-28 bg-popsi-cream" ref={ref}>
+    <section id="popsi-flavors" className="py-20 sm:py-28 bg-mint-cream" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="font-display text-4xl sm:text-5xl font-bold text-popsi-brown text-center mb-12 reveal">
+        <p className="eyebrow text-turbo-spice text-center mb-3 reveal">POPSI Naturals</p>
+        <h2 className="font-display text-4xl sm:text-6xl font-black text-popsi-brown text-center mb-12 reveal leading-[1.05]">
           Six flavors of real India.
         </h2>
         <div className="flex gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-4 reveal">
@@ -74,7 +75,12 @@ const PopsiFlavorSection = () => {
             </div>
           ))}
         </div>
-        <p className="text-center font-body text-xs text-muted-foreground mt-3 animate-pulse">← Swipe for more flavors →</p>
+        <div className="flex justify-center mt-2">
+          <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-popsi-brown/10 text-popsi-brown eyebrow">
+            Swipe for more flavors
+            <span className="animate-nudge">→</span>
+          </span>
+        </div>
       </div>
     </section>
   );

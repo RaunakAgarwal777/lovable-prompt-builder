@@ -61,8 +61,9 @@ const TurboSquadSection = () => {
     <section id="turbo-squad" className="py-20 sm:py-28 bg-background" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 reveal">
-          <h2 className="font-display text-4xl sm:text-5xl font-bold text-foreground">Meet the Rushmore Squad.</h2>
-          <p className="font-body text-lg text-muted-foreground mt-3">Five flavors. All zero sugar. All very Indian.</p>
+          <p className="eyebrow text-primary mb-3">The Lineup</p>
+          <h2 className="font-display text-4xl sm:text-6xl font-black text-foreground leading-[1.05]">Meet the Rushmore Squad.</h2>
+          <p className="font-body text-lg text-muted-foreground mt-4">Five flavors. All zero sugar. All very Indian.</p>
         </div>
         <div className="flex gap-6 overflow-x-auto no-scrollbar snap-x snap-mandatory pb-4 reveal">
           {flavors.map((f) =>
@@ -71,9 +72,14 @@ const TurboSquadSection = () => {
             </div>
           )}
         </div>
-        <p className="text-center font-body text-xs text-muted-foreground mt-3 animate-pulse">← Swipe for more flavors →</p>
-        <p className="text-center font-body text-sm text-muted-foreground mt-8 reveal">All cans: ₹40 · 225ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
-
+        <div className="flex justify-center mt-2">
+          <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-primary/10 text-primary eyebrow">
+            Swipe for more flavors
+            <span className="animate-nudge">→</span>
+          </span>
+        </div>
+        <p className="text-center font-body text-sm text-muted-foreground mt-8 reveal">
+          All cans: ₹49 · 255ml · Zero Sugar · Zero Calorie · Indian Spice Prebiotic Blend
         </p>
       </div>
     </section>);

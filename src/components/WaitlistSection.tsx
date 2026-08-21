@@ -15,9 +15,12 @@ const WaitlistSection = () => {
   };
 
   return (
-    <section id="waitlist" className="py-20 sm:py-28 bg-primary" ref={ref}>
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="font-display text-4xl sm:text-5xl font-bold text-primary-foreground mb-4 reveal">
+    <section id="waitlist" className="py-24 sm:py-32 bg-primary relative overflow-hidden" ref={ref}>
+      <div className="absolute -top-24 -left-24 w-96 h-96 rounded-full bg-secondary/30 blur-3xl" />
+      <div className="absolute -bottom-24 -right-24 w-96 h-96 rounded-full bg-turbo-crimson/30 blur-3xl" />
+      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <p className="eyebrow text-primary-foreground/70 mb-4 reveal">Pre-launch access</p>
+        <h2 className="font-display text-4xl sm:text-6xl font-black text-primary-foreground mb-5 reveal leading-[1.05]">
           Be First. Join the Rushmore Tribe.
         </h2>
         <p className="font-body text-lg text-primary-foreground/80 mb-10 reveal">
