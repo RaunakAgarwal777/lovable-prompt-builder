@@ -63,6 +63,15 @@ export default {
           brown: "hsl(var(--popsi-brown))",
         },
         turmeric: "hsl(var(--turmeric))",
+        peach: {
+          DEFAULT: "hsl(var(--peach))",
+          deep: "hsl(var(--peach-deep))",
+        },
+        cream: "hsl(var(--cream))",
+        "mint-cream": "hsl(var(--mint-cream))",
+        saffron: "hsl(var(--saffron))",
+        "spice-deep": "hsl(var(--spice-deep))",
+        ink: "hsl(var(--ink))",
         "dark-navy": "hsl(var(--dark-navy))",
         "near-black": "hsl(var(--near-black))",
         sidebar: {
