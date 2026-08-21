@@ -75,7 +75,12 @@ const PopsiFlavorSection = () => {
             </div>
           ))}
         </div>
-        <p className="text-center font-body text-xs text-muted-foreground mt-3 animate-pulse">← Swipe for more flavors →</p>
+        <div className="flex justify-center mt-2">
+          <span className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-popsi-brown/10 text-popsi-brown eyebrow">
+            Swipe for more flavors
+            <span className="animate-nudge">→</span>
+          </span>
+        </div>
       </div>
     </section>
   );
