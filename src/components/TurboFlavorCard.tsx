@@ -10,34 +10,38 @@ interface TurboFlavor {
 
 const TurboFlavorCard = ({ flavor }: { flavor: TurboFlavor }) => {
   return (
-    <div className="card-tilt flex-shrink-0 w-[270px] sm:w-[280px] rounded-3xl overflow-hidden shadow-lg bg-card">
+    <div className="card-tilt flex-shrink-0 w-[270px] sm:w-[280px] rounded-[2rem] overflow-hidden bg-card shadow-soft border border-border">
       {/* Top colored area */}
       <div
         className="h-60 flex flex-col items-center justify-center relative overflow-hidden"
         style={{ backgroundColor: flavor.bgColor }}
       >
+        <div className="absolute inset-x-0 bottom-0 h-16 bg-card/10 blur-2xl" />
         <img
           src={flavor.image}
           alt={`${flavor.name} can`}
-          className="h-56 w-auto object-contain drop-shadow-xl"
+          className="relative h-56 w-auto object-contain drop-shadow-2xl"
         />
       </div>
       {/* Bottom info */}
       <div className="p-5">
-        <h3 className="font-display text-xl font-bold text-foreground">{flavor.name}</h3>
-        <p className="font-body text-sm text-muted-foreground italic mt-1 leading-snug">{flavor.tagline}</p>
+        <h3 className="font-display text-xl font-black text-foreground leading-tight">{flavor.name}</h3>
+        <p className="font-body text-sm text-muted-foreground mt-1.5 leading-snug">{flavor.tagline}</p>
         <div className="flex gap-2 mt-3 text-lg">{flavor.icons.map((icon, i) => <span key={i}>{icon}</span>)}</div>
-        <div className="flex items-center gap-2 mt-3">
-          <span className="inline-block px-3 py-1 rounded-full bg-muted text-muted-foreground font-body text-xs font-medium">
+        <div className="flex items-center gap-2 mt-4">
+          <span className="inline-block px-3 py-1 rounded-full bg-muted text-muted-foreground font-body text-[11px] font-semibold">
             Zero Sugar · Zero Calorie
           </span>
-          <span className="inline-block px-3 py-1 rounded-full bg-foreground/10 text-foreground font-body text-xs font-bold">
+          <span
+            className="inline-block px-3 py-1 rounded-full font-body text-xs font-bold text-cream"
+            style={{ backgroundColor: flavor.bgColor }}
+          >
             {flavor.price}
           </span>
         </div>
         <a
           href="#waitlist"
-          className="mt-4 block text-center px-4 py-2.5 rounded-full font-body text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
+          className="mt-5 block text-center px-4 py-3 rounded-full font-body text-sm font-bold text-cream transition-transform hover:-translate-y-0.5"
           style={{ backgroundColor: flavor.bgColor }}
         >
           Join Waitlist →
