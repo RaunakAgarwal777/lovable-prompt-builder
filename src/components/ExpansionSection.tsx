@@ -13,7 +13,7 @@ const ExpansionSection = () => {
           From India to the World.
         </h2>
         <p className="font-body text-base sm:text-lg text-primary-foreground/70 mb-8 max-w-2xl mx-auto reveal">
-          TURBO and POPSI Naturals are expanding across Southeast Asia — Philippines, Indonesia, Thailand, Vietnam. Coconut water and sugarcane punch are already familiar flavors there. Now they'll carry an Indian soul. — Philippines, Indonesia, Thailand, Vietnam. Coconut water and sugarcane punch are already familiar flavors there. Now they'll carry an Indian soul.
+          RUSHMORE and POPSI Naturals are expanding across Southeast Asia — Philippines, Indonesia, Thailand, Vietnam. Coconut water and sugarcane punch are already familiar flavors there. Now they'll carry an Indian soul. — Philippines, Indonesia, Thailand, Vietnam. Coconut water and sugarcane punch are already familiar flavors there. Now they'll carry an Indian soul.
         </p>
         <div className="flex justify-center gap-4 text-4xl mb-8 reveal">
           <span>🇮🇳</span><span>🇵🇭</span><span>🇮🇩</span><span>🇹🇭</span><span>🇻🇳</span>

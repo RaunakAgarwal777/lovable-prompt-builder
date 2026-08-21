@@ -18,7 +18,7 @@ const HeroSection = () => {
               Culturally Rooted<br />
               Energy Drink.
             </h1>
-            <p className="text-lg sm:text-xl font-body text-foreground/70 mb-8">Zero Sugar · Zero Calorie · Sparkling Prebiotic Tonic · ₹49
+            <p className="text-lg sm:text-xl font-body text-foreground/70 mb-8">Zero Sugar · Zero Calorie · Sparkling Prebiotic Tonic · ₹40
 
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
@@ -26,7 +26,7 @@ const HeroSection = () => {
                 href="#turbo-squad"
                 className="px-7 py-3 rounded-full font-body font-semibold hover:opacity-90 transition-opacity text-[sidebar-primary-foreground] text-primary-foreground bg-primary">
                 
-                Shop TURBO →
+                Shop RUSHMORE →
               </a>
               <a
                 href="#turbo-squad"
@@ -49,7 +49,7 @@ const HeroSection = () => {
             <div className="absolute w-72 h-72 sm:w-96 sm:h-96 rounded-full bg-foreground/5 blur-3xl" />
             <img
               src={turboLineup}
-              alt="TURBO energy drink lineup - all 5 flavors"
+              alt="RUSHMORE energy drink lineup - all 5 flavors"
               className="relative w-full max-w-md sm:max-w-lg rounded-2xl shadow-2xl transform rotate-[2deg]" />
             
             <span className="absolute top-8 right-4 text-3xl animate-float-1">🍃</span>
