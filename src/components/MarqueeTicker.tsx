@@ -1,10 +1,10 @@
 const items = [
-  "⚡ ZERO SUGAR",
-  "🌿 PREBIOTIC POWER",
-  "🇮🇳 CRAFTED FOR INDIA",
-  "💚 ZERO CALORIES",
-  "🥤 355ML PREMIUM CAN",
-  "✨ LAUNCHING 2026",
+  "ZERO SUGAR",
+  "PREBIOTIC POWER",
+  "CRAFTED FOR INDIA",
+  "ZERO CALORIES",
+  "255ML PREMIUM CAN",
+  "LAUNCHING 2026",
 ];
 
 const MarqueeTicker = () => {
