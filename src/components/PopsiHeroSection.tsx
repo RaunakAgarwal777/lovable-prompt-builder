@@ -24,7 +24,7 @@ const PopsiHeroSection = () => {
             </p>
             <a
               href="#popsi-flavors"
-              className="inline-flex px-7 py-3 rounded-full bg-popsi-brown text-primary-foreground font-body font-semibold text-sm hover:opacity-90 transition-opacity">
+              className="inline-flex px-8 py-3.5 rounded-full bg-popsi-brown text-cream font-body font-bold text-sm shadow-soft transition-transform hover:-translate-y-0.5">
               
               Meet POPSI Naturals →
             </a>
