@@ -14,7 +14,7 @@ const WhyTurboSection = () => {
   return (
     <section className="py-16 sm:py-24 bg-cream border-y border-border" ref={ref}>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p className="eyebrow text-primary mb-4 reveal">Why RUSHMORE</p>
+        <p className="eyebrow text-primary mb-4 reveal">Why TURBO</p>
         <h2 className="font-display text-3xl sm:text-5xl font-black text-foreground mb-14 reveal leading-tight">
           Energy that doesn't cost your health.
         </h2>

@@ -21,7 +21,7 @@ const WaitlistSection = () => {
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p className="eyebrow text-primary-foreground/70 mb-4 reveal">Pre-launch access</p>
         <h2 className="font-display text-4xl sm:text-6xl font-black text-primary-foreground mb-5 reveal leading-[1.05]">
-          Be First. Join the Rushmore Tribe.
+          Be First. Join the Turbo Tribe.
         </h2>
         <p className="font-body text-lg text-primary-foreground/80 mb-10 reveal">
           Get early access, launch discounts, and flavor drops straight to your inbox.
@@ -29,7 +29,7 @@ const WaitlistSection = () => {
         {submitted ? (
           <div className="reveal visible">
             <p className="font-body text-lg text-primary-foreground font-semibold">
-              ⚡ You're in! Welcome to the Rushmore Tribe.
+              ⚡ You're in! Welcome to the Turbo Tribe.
             </p>
           </div>
         ) : (
