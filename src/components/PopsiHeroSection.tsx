@@ -10,10 +10,10 @@ const PopsiHeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left text */}
           <div className="reveal">
-            <span className="font-body text-sm italic text-muted-foreground mb-4 block">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-turbo-green/15 text-turbo-spice eyebrow mb-5">
               From the Fields of India 🌾
             </span>
-            <h2 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold text-popsi-brown leading-[1.1] mb-6">
+            <h2 className="font-display text-5xl sm:text-6xl lg:text-7xl font-black text-popsi-brown leading-[1] mb-6">
               Natural. Desi.<br />Delicious.
             </h2>
             <p className="font-body text-lg text-muted-foreground mb-3">
