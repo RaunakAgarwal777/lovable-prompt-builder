@@ -35,7 +35,7 @@ const PopsiHeroSection = () => {
             <img
               src={popsiLineup}
               alt="POPSI Naturals lineup - all 6 flavors"
-              className="w-full max-w-lg shadow-2xl opacity-100 border-8 rounded-none border-none" />
+              className="w-full max-w-lg rounded-[2rem] shadow-pop" />
             
             <span className="absolute -top-4 left-4 text-2xl animate-float-1">🍌</span>
             <span className="absolute -top-2 right-6 text-xl animate-float-3">🍓</span>
