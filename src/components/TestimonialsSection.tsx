@@ -3,7 +3,7 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 const testimonials = [
   {
     bg: "#E3F2FD",
-    quote: "Finally — an energy drink that doesn't taste like a lab experiment. RUSHMORE is what India needed.",
+    quote: "Finally — an energy drink that doesn't taste like a lab experiment. TURBO is what India needed.",
     author: "Aarav M., Mumbai",
   },
   {

@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-1.5 font-display text-xl font-bold text-primary-foreground mb-3">
               <Zap className="w-5 h-5 text-primary" />
-              RUSHMORE Beverages
+              TURBO Beverages
             </div>
             <p className="font-body text-sm text-primary-foreground/50 italic">
               Energy for India. Naturals for Everyone.
@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           {/* Col 2 */}
           <div>
-            <h4 className="font-body text-sm font-bold text-primary-foreground mb-4 uppercase tracking-wider">RUSHMORE</h4>
+            <h4 className="font-body text-sm font-bold text-primary-foreground mb-4 uppercase tracking-wider">TURBO</h4>
             <ul className="space-y-2">
               {["Cyan Blue", "Mango Blaze", "Green Lemon", "Spice Rush", "Crimson"].map((f) => (
                 <li key={f}>
@@ -58,7 +58,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-primary-foreground/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-body text-xs text-primary-foreground/40">
-            © 2026 RUSHMORE Beverages Pvt. Ltd. · Made with 🌿 in India
+            © 2026 TURBO Beverages Pvt. Ltd. · Made with 🌿 in India
           </p>
           <div className="flex gap-4">
             {["Instagram", "TikTok", "YouTube"].map((s) => (

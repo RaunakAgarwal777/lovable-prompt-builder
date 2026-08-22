@@ -46,7 +46,7 @@ const IngredientStorySection = () => {
           ))}
         </div>
         <p className="font-body text-xs text-primary-foreground/50 mt-12 reveal">
-          RUSHMORE contains no artificial sweeteners, no added sugar, and is crafted for the Indian palate.
+          TURBO contains no artificial sweeteners, no added sugar, and is crafted for the Indian palate.
         </p>
       </div>
     </section>
