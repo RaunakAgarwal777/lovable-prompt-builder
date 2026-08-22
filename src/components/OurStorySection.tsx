@@ -4,7 +4,7 @@ const OurStorySection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="our-story" className="py-20 sm:py-28 bg-[#F0FAF4]" ref={ref}>
+    <section id="our-story" className="py-20 sm:py-28 bg-mint-cream" ref={ref}>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="reveal">
           <p className="font-body text-xs font-bold uppercase tracking-[0.2em] text-turmeric mb-4">
