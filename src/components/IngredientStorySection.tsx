@@ -35,9 +35,11 @@ const IngredientStorySection = () => {
           {tiles.map((t) => (
             <div
               key={t.title}
-              className="rounded-3xl border border-primary-foreground/20 p-8 text-left"
+              className="rounded-3xl border border-primary-foreground/20 bg-primary-foreground/5 p-8 text-left"
             >
-              <span className="text-4xl block mb-4">{t.icon}</span>
+              <span className="w-12 h-12 rounded-full bg-secondary/25 text-secondary flex items-center justify-center mb-5">
+                <t.icon className="w-6 h-6" />
+              </span>
               <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">{t.title}</h3>
               <p className="font-body text-sm text-primary-foreground/70 leading-relaxed">{t.desc}</p>
             </div>
