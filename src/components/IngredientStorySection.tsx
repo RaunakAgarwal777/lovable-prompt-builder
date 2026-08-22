@@ -1,18 +1,19 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { Flame, Sprout, Zap } from "lucide-react";
 
 const tiles = [
   {
-    icon: "🫚",
+    icon: Flame,
     title: "Indian Spice Blend",
     desc: "Cardamom, star anise, and ginger — the same spices your dadi used, now powering your day.",
   },
   {
-    icon: "🌿",
+    icon: Sprout,
     title: "Prebiotic Fiber",
     desc: "Feeds your gut's good bacteria. Every sip is a favor to your microbiome.",
   },
   {
-    icon: "⚡",
+    icon: Zap,
     title: "Zero Sugar Formula",
     desc: "Sweetened naturally. Carbonated fully. No compromise on taste.",
   },
