@@ -40,11 +40,11 @@ const WaitlistSection = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="your@email.com"
-              className="flex-1 px-6 py-3 rounded-full font-body text-sm text-foreground bg-primary-foreground outline-none placeholder:text-muted-foreground"
+              className="flex-1 px-6 py-4 rounded-full font-body text-sm text-foreground bg-primary-foreground outline-none ring-offset-2 ring-offset-primary focus:ring-2 focus:ring-ink placeholder:text-muted-foreground shadow-soft"
             />
             <button
               type="submit"
-              className="px-7 py-3 rounded-full bg-turbo-spice text-primary-foreground font-body font-semibold text-sm hover:opacity-90 transition-opacity"
+              className="px-8 py-4 rounded-full bg-spice-deep text-cream font-body font-bold text-sm shadow-soft transition-transform hover:-translate-y-0.5"
             >
               Join Waitlist ⚡
             </button>

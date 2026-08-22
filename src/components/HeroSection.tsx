@@ -11,7 +11,7 @@ const features = [
 
 const HeroSection = () => {
   return (
-    <section className="relative flex items-center overflow-hidden pt-28 pb-16 lg:pt-32 lg:pb-24 lg:min-h-[92vh]">
+    <section className="relative flex items-center overflow-hidden pt-28 pb-20 lg:pt-36 lg:pb-28">
       {/* Warm gradient base */}
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
 

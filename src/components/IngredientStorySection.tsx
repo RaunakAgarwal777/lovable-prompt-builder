@@ -1,18 +1,19 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { Flame, Sprout, Zap } from "lucide-react";
 
 const tiles = [
   {
-    icon: "🫚",
+    icon: Flame,
     title: "Indian Spice Blend",
     desc: "Cardamom, star anise, and ginger — the same spices your dadi used, now powering your day.",
   },
   {
-    icon: "🌿",
+    icon: Sprout,
     title: "Prebiotic Fiber",
     desc: "Feeds your gut's good bacteria. Every sip is a favor to your microbiome.",
   },
   {
-    icon: "⚡",
+    icon: Zap,
     title: "Zero Sugar Formula",
     desc: "Sweetened naturally. Carbonated fully. No compromise on taste.",
   },
@@ -34,9 +35,11 @@ const IngredientStorySection = () => {
           {tiles.map((t) => (
             <div
               key={t.title}
-              className="rounded-3xl border border-primary-foreground/20 p-8 text-left"
+              className="rounded-3xl border border-primary-foreground/20 bg-primary-foreground/5 p-8 text-left"
             >
-              <span className="text-4xl block mb-4">{t.icon}</span>
+              <span className="w-12 h-12 rounded-full bg-secondary/25 text-secondary flex items-center justify-center mb-5">
+                <t.icon className="w-6 h-6" />
+              </span>
               <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">{t.title}</h3>
               <p className="font-body text-sm text-primary-foreground/70 leading-relaxed">{t.desc}</p>
             </div>
